@@ -80,7 +80,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #012970;
+  background: #00BF63;
   min-height: 40px;
   margin-top: 82px;
   color: #fff;
@@ -473,14 +473,18 @@ section {
 .hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.png) top center no-repeat;
+  background-color: #ffffff;
+background-image: linear-gradient(315deg, #ffffff 0%, #dcf8ef 74%);
+  /*background: url(../img/hero-bg.png) top center no-repeat;*/
   background-size: cover;
 }
+
 
 .hero h1 {
   margin: 0;
   font-size: 68px;
-  font-weight: 700;
+  font-weight: 500;
+  font-family: tahoma;
   color: #00BF63;
 }
 
@@ -540,7 +544,7 @@ section {
   }
 
   .hero .hero-img img {
-    width: 80%;
+    width: 100%;
   }
 }
 
