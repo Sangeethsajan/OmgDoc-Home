@@ -13,6 +13,14 @@
   scroll-behavior: smooth;
 }
 
+.chirstmaslogo{
+  width: 75%;
+}
+@media(max-width: 500px){
+  .chirstmaslogo{
+    width: 50%;
+  }
+}
 body {
   font-family: "Open Sans", sans-serif;
   color: #545454;
